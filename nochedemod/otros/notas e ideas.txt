@@ -1,0 +1,2 @@
+Hacer un sistema de posting en el index con una pequeña valoración
+de la noche de mod y vincularla a su posición en la lista

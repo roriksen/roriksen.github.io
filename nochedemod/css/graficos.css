@@ -1,0 +1,21 @@
+
+
+.chumtoad img{
+  display: block;
+  height: 50px;
+  weight: 50px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  filter: brightness(150%) drop-shadow(2px 2px 5px white);
+  
+}
+
+.chumtoad img:hover{
+  filter: grayscale(80%) brightness(200%) drop-shadow(2px 2px 5px red);
+}
+
+@font-face {
+  font-family: dungeon;
+  src: url(../graficos/dungeon.TTF);
+}
