@@ -1,9 +1,8 @@
 @font-face {
-    font-family: 'windows'; /* Nombre que usarás en el CSS */
-    src: url('media/fonts/Windows-Command-Prompt.woff2') format('woff2'); /* Ruta de la fuente */
+    font-family: 'windows'; 
+    src: url('media/fonts/Windows-Command-Prompt.woff2') format('woff2');
 }
 
-/* Estilos generales */
 body {
     font-family: 'windows';
     font-size: x-large;
@@ -40,14 +39,14 @@ li{
     display: block;
     width: 100px;
     height: 100px;
-    background-image: url('media/icons/home.png'); /* Ruta de la imagen */
-    background-size: cover; /* Ajusta la imagen al botón */
+    background-image: url('media/icons/home.png'); 
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-    text-decoration: none; /* Quita el subrayado de enlace */
-    filter: sepia(100%) hue-rotate(90deg) saturate(300%); /* Aplica tinte verde */
+    text-decoration: none; 
+    filter: sepia(100%) hue-rotate(90deg) saturate(300%); 
 }
 
 .cont_home{
@@ -56,9 +55,9 @@ li{
 }
 
 .links_social a {
-    text-decoration: none; /* Quita el subrayado */
-    color: inherit; /* Usa el mismo color del texto del div */
-    cursor: default; /* Hace que el cursor no cambie a una mano */
+    text-decoration: none; 
+    color: inherit; 
+    cursor: default;
     margin: 5px 0;
 
 }
