@@ -37,8 +37,8 @@ li{
 
 .home-button{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url('media/icons/home.png'); 
     background-size: cover; 
     background-position: center;
@@ -47,6 +47,14 @@ li{
     cursor: pointer;
     text-decoration: none; 
     filter: sepia(100%) hue-rotate(90deg) saturate(300%); 
+    animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
 }
 
 .cont_home{
@@ -54,14 +62,30 @@ li{
     justify-content: center;
 }
 
+.links_social{
+    display: block;
+    gap: 20px;
+    text-align: center;
+}
+
 .links_social a {
     text-decoration: none; 
     color: inherit; 
     cursor: default;
     margin: 5px 0;
+}
 
+.links_menu a {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: default;
+    margin: 5px 0;
 }
 
 .links_social a:hover {
-    color: gray; /* Cambia a gris al pasar el mouse */
+    color: gray; 
+}
+
+.links_menu a:hover {
+    color: royalblue;
 }
